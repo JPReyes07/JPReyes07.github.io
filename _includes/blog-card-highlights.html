@@ -14,8 +14,9 @@
                 {%- unless tags.size == 0 -%}
                 <div class="tags">
                     <i class="fas fa-tags"></i>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
                     {% for tag in post.tags %}
-                    <span class="tag is-link">{{ tag }}</span>
+                    <span class="tag is-link" style="background-color: #DF2935; color: #FFF;">{{ tag }}</span>
                     {% endfor %}
                 </div>
                 {%- endunless -%}

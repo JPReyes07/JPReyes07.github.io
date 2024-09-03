@@ -458,8 +458,18 @@ a.navbar-item.is-active {
         background-color: #DF2935;
     }
     .content {
+        font-size: 1.20em;
+        em{
+            color:#DF2935;
+        }
+        strong{
+            color:#DF2935;
+        }
         ol, ul, blockquote {
             display: inline-block;
+        }
+        blockquote {
+            width:100%;
         }
         hr{
             background-color: grey;
@@ -476,7 +486,6 @@ a.navbar-item.is-active {
         ul, ol {
             display: inline-block;
         }
-
         table {
             width: 100%;
             margin-left: auto;
@@ -484,21 +493,19 @@ a.navbar-item.is-active {
             table-layout: auto;
 
         }
-
         th{
             background-color: #000000;
             color: white;
         }
-
         td {
             max-width: 500px; /* Limits the maximum width of cells, adjust as needed */
         }
-
         th, td {
             word-wrap: break-word;
             white-space: normal;
             overflow-wrap: break-word;
             text-align: left; /* Aligns text to the left for better readability */
+            vertical-align: middle;
         }
 
 
